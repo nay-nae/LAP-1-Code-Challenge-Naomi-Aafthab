@@ -95,26 +95,45 @@ form.search-bar input[type=text]{
         padding: 10px 15px 12px 40px;
   }
 
-  .footer {
-    position: fixed;
-    padding-bottom: 5%;
-    left: 0;
-    bottom: 0;
+footer{
     width: 100%;
     background-color: rgba(128, 128, 128, 0.103);
     color: grey;
-    text-align: left;
+    align-content: flex-end;
+    margin-bottom: 0%;
   }
 
-  li.footer-item a[href="#"]{
+
+#centre-buttons{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.search-buttons{
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.103);
+}
+
+.box1{
     color: grey;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 20px;
-    float: left;
-  }
-#centre-buttons{
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.box2{
     color: grey;
-    border: 1px solid rgba(128, 128, 128, 0.103);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.box3{
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
 }
   

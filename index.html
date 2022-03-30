@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <style>
         #tilt {
             transform: rotate(45deg);
@@ -66,10 +66,6 @@
             <span style="color: green;text-transform: lowercase;">L</span>
             <span id="tilt" style="color: red;text-transform: lowercase;">E</span>
         </h1>
-        <div id="centre-buttons">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
-        </div>
     </div>
     </div>
 
@@ -82,22 +78,37 @@
         </form>
     </div>
 
-    <div class="footer">
-        United Kingdom<br>
-        <div id="footer-links">
-            <ul style="list-style:none" class="navbar">
-                <li class="footer-item">
-                    <small><a href="#">Advertising</a></small>
-                </li>
-                <li class="footer-item">
-                    <small><a href="#">Business</a></small>
-                </li>
-                <li class="footer-item">
-                    <small><a href="#">How Search Works</a></small>
-                </li>
-            </ul>
-        </div>
+    <div id="centre-buttons">
+        <button class="search-buttons">Google Search</button>
+        <button class="search-buttons">I'm Feeling Lucky</button>
     </div>
+
+    <footer>
+        <div class="footer">
+            <p>United Kingdom</p><br>
+            <small>
+                <div class=" box1">
+                    <p><a href="#">Advertising &nbsp;&nbsp;</a></p>
+                    <p><a href="#">Business &nbsp;&nbsp;</a></p>
+                    <p><a href="#">How Search Works</a></p>
+                </div>
+            </small>
+
+            <div class="box2">
+                <small>
+                    <p><a href="#">Carbon neutral since 2007</a></p>
+                </small>
+            </div>
+
+            <small>
+                <div class="box3">
+                    <p><a href="#">Privacy &nbsp;&nbsp;</a></p>
+                    <p><a href="#">Terms &nbsp;&nbsp;</a></p>
+                    <p><a href="#">Settings &nbsp;&nbsp;</a></p>
+                </div>
+            </small>
+        </div>
+    </footer>
 
 </body>
 
