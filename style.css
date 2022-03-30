@@ -1,0 +1,117 @@
+body{
+    font-family: futura;
+    /* text-transform: lowercase; */
+}
+
+nav{
+    background-color: white;
+}
+
+#p-box{
+    position:relative;
+}
+
+#p-box .nav-item-right1{
+    position:absolute;
+    margin-left: 80%;
+    padding-left: 8px;
+}
+#p-box .nav-item-right2{
+    position:absolute;
+    margin-left: 85%;
+    padding-right: 4px
+}
+
+.googleApps-image{
+    position:absolute;
+    margin-left: 92%;
+    padding-right: 1px;
+}
+
+.googleApps-image:hover{
+    background-image: src="google-apps.png";
+}
+
+#profile-image{
+    position:absolute;
+    margin-left: 95%;
+}
+
+.jumbotron{
+    background-color: white;
+    letter-spacing: -15px;
+    margin-top: 50px; 
+    padding:0%;
+}
+
+h1{
+    font-size: 100px;
+}
+
+#tilt{
+    transform: rotate(-90deg);
+}
+
+button{
+    border: 0px;
+    background-color: white;
+}
+
+#search-box{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin:auto;
+    justify-content: center;
+
+    /* margin-left: auto;
+    margin-right: 15%; */
+    /* margin-top: 5px; */
+    
+}
+form.search-bar input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgba(128, 128, 128, 0.103);
+    border-radius: 10%;
+    width: 75%;
+    background: rgba(128, 128, 128, 0.103);
+    text-align: center;
+  }
+
+  #search-box{
+      display: flex;
+  }
+
+  .search-icon{
+        background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 15px 12px 40px;
+  }
+
+  .footer {
+    position: fixed;
+    padding-bottom: 5%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.103);
+    color: grey;
+    text-align: left;
+  }
+
+  li.footer-item a[href="#"]{
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    float: left;
+    
+  }
+  
