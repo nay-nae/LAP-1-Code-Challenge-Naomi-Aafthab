@@ -95,14 +95,16 @@ form.search-bar input[type=text]{
         padding: 10px 15px 12px 40px;
   }
 
-footer{
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.103);
-    color: grey;
-    align-content: flex-end;
-    margin-bottom: 0%;
+.footer{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.123);
+  color: grey;
   }
-
 
 #centre-buttons{
     display:flex;
