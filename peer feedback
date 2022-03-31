@@ -1,0 +1,14 @@
+Client-side:
+1. Looks very similar to Google, excellent finish.
+2. Good use of colours, visually appealling 
+3. Nav bar looks good - Good use of carousel imaging in the top right!
+4. Footer alignment off / too high up
+5. Not connected to server
+
+
+Server-side:
+1. Not connected to front-end
+2. /searchResults returns the 10 websirts
+3. /randomSearch works, returns a random website
+4. /searchResults/:id works, rerturns a website based on id attribute 
+5. id > 10 returns 'error' on console
